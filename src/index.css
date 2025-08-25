@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #111827; /* This is the same color as bg-gray-900 */
+}
+
+.nav-link-active {
+    background-color: #2563eb; /* Blue 600 */
+    color: #ffffff;
+}
+.nav-link-active svg {
+    color: #ffffff;
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
