@@ -1,4 +1,4 @@
-const SPREADSHEET_URL = import.meta.env.VITE_SCRIPT_URL || "<PASTE_YOUR_GAS_EXEC_URL_HERE>";
+const SPREADSHEET_URL = import.meta.env.VITE_SCRIPT_URL || "https://script.google.com/macros/s/AKfycbwaslPDu2h5iEm58-39f7cmpn3s-gnVYE248AmhO1XtTPQeTU7SGoDRvLzg5ZHinoCg/exec";
 const API_KEY = import.meta.env.VITE_API_KEY || ""; // optional simple protection
 
 
